@@ -50,6 +50,10 @@ module.exports = class MenuController {
     return this.contacts.length;
   }
 
+  remindMe(){
+    return 'Leaning is a life-long pursuit';
+  }
+
   exit(){
     console.log('Thanks for using AddressBloc!');
     process.exit;
